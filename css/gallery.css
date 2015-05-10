@@ -1,0 +1,165 @@
+@font-face { /*//gunannya untuk menambahkan sebuah gaya text yang baru ke dalam html.*/
+	font-family: 'Blenda';
+	src: url('../font/Blenda-Script/AlexBrush-Regular.ttf');
+	src: url('../font/Blenda-Script/AlexBrush-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-size: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: arial;
+	margin-top: 20px;
+}
+
+header img {
+	height: 380px;/* gunanya untuk mengatur tinggi suatu elemen*/ 
+	width: 742px;
+	margin-bottom: 30px;
+	border-radius: 80px/40px;
+}
+
+kotak a {
+	text-decoration: none; /*//gunannya untuk menghilangkan semua dekorasi yang terdapat pada text.*/
+}
+
+.aaa {
+	font-family: Blenda;
+	font-size: 40px;
+	margin-left: 60px;
+	margin-bottom: 10px;
+	width: 90px;
+	height: 40px;/* gunanya untuk mengatur tinggi suatu elemen*/ 
+	color: black;
+
+}
+
+.aa {
+	font-family: Blenda; /*gunanya untuk men-setting jenis gaya text yang akan kita gunakan.*/
+	font-size: 40px;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	width: 90px; /*// gunanya untuk mengatur lebar sebuah elemen*/
+	height: 40px; /*// gunanya untuk mengatur tinggi sebuah elemen*/
+	color: black; /*gunanya untuk memberi warna pada text*/
+
+}
+
+.b {
+	font-family: Blenda;/*gunanya untuk men-setting jenis gaya text yang akan kita gunakan.*/
+	font-size: 40px;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	width: 90px; /*// gunanya untuk mengatur lebar sebuah elemen*/
+	height: 40px; /*// gunanya untuk mengatur tinggi sebuah elemen*/
+color: black; /*gunanya untuk memberi warna pada text*/
+}
+
+.c {
+	font-family: Blenda;/*gunanya untuk men-setting jenis gaya text yang akan kita gunakan.*/
+	font-size: 30px;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	width: 150px; /*// gunanya untuk mengatur lebar sebuah elemen*/
+	height: 40px; /*// gunanya untuk mengatur tinggi sebuah elemen*/
+	color: black; /*gunanya untuk memberi warna pada text*/
+}
+
+.d {
+	font-family: Blenda;/*gunanya untuk men-setting jenis gaya text yang akan kita gunakan.*/
+	font-size: 40px;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	width: 90px; /*// gunanya untuk mengatur lebar sebuah elemen*/
+	height: 40px; /*// gunanya untuk mengatur tinggi sebuah elemen*/
+color: black; /*gunanya untuk memberi warna pada text*/
+}
+
+#twd-menu{
+	margin-bottom:20px;
+}
+.normal{
+	margin-left: 250px;
+	padding: 10px;
+}
+#twd-menu kotak{
+
+	list-style-type: none;
+	padding: 0;
+}
+	#twd-menu kotak div{
+		display: inline-block;
+	}
+		#twd-menu kotak div a{
+			display: inline-block;
+			padding:10px;
+			border-radius: 10px;
+			color: grey;
+		}
+			#twd-menu kotak div a:hover{
+				background:black;
+				color: #fff;
+			}
+
+#gallery {
+	width: 1000px;
+	margin: auto auto auto 34px;
+	text-align: center;
+}
+
+#gallery ul {
+	list-style: none;
+	margin-top: 20px;
+}
+
+#gallery ul li {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+
+/*Mengatur dan membuat deklarasi untuk bagian gambar*/ 
+#gallery img {
+	width: 220px;
+	height: 240px;
+	border: 5px solid white;
+	box-shadow: 0 0 2px #999;
+	border-radius: 2px;
+	-webkit-transition : all .3s ease;
+	-moz-transition : all .3s ease;
+	-o-transition : all .3s ease;
+}
+/*Mengatur dan membuat deklarasi untuk bagian gambar pada saat di hover*/ 
+#gallery img:hover {
+	-webkit-box-shadow: 0 0 10px #333;
+	-o-box-shadow: 0 0 10px #333;
+	-moz-box-shadow: 0 0 10px #333;
+
+}
+
+/*Mengatur dan membuat deklarasi untuk bagian pagewrap*/
+pagewrap {
+	width: 77%;
+	height: 120%;
+	border-radius: 30px/60px;
+	background: url(../images/5.png);
+	background-position: left;
+	background-repeat: repeat;
+	border-radius: 20px/59px;
+	margin-right: 10px;
+	margin-left: 12%;
+	margin-bottom: 4%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	position: relative;
+	float: left;
+}
+
+clear {
+	clear: both;
+}

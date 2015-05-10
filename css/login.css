@@ -1,0 +1,297 @@
+@font-face {
+	font-family: 'Blenda';
+	src: url('../font/Blenda-Script/AlexBrush-Regular.ttf');
+	src: url('../font/Blenda-Script/AlexBrush-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-size: normal;
+}
+
+@font-face {
+	font-family: 'Blenda1';
+	src: url('../font/Blenda-Script/always-forever.ttf');
+	src: url('../font/Blenda-Script/always-forever.ttf') format('truetype');
+	font-weight: normal;
+	font-size: normal;
+}
+
+kotak a {
+	text-decoration: none; /*//gunannya untuk menghilangkan semua dekorasi yang terdapat pada text.*/
+}
+
+.aa {
+	font-family: Blenda; /*gunanya untuk men-setting jenis gaya text yang akan kita gunakan.*/
+	font-size: 40px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	width: 90px; /*// gunanya untuk mengatur lebar sebuah elemen*/
+	height: 40px; /*// gunanya untuk mengatur tinggi sebuah elemen*/
+	
+
+}
+
+.b {
+	font-family: Blenda;/*gunanya untuk men-setting jenis gaya text yang akan kita gunakan.*/
+	font-size: 40px;
+	margin-left: 85px;
+	margin-bottom: 10px;
+	width: 90px; /*// gunanya untuk mengatur lebar sebuah elemen*/
+	height: 40px; /*// gunanya untuk mengatur tinggi sebuah elemen*/
+
+}
+
+.c {
+	font-family: Blenda;/*gunanya untuk men-setting jenis gaya text yang akan kita gunakan.*/
+	font-size: 30px;
+	margin-left: 105px;
+	margin-bottom: 10px;
+	width: 150px; /*// gunanya untuk mengatur lebar sebuah elemen*/
+	height: 40px; /*// gunanya untuk mengatur tinggi sebuah elemen*/
+}
+
+.d {
+	font-family: Blenda;/*gunanya untuk men-setting jenis gaya text yang akan kita gunakan.*/
+	font-size: 40px;
+	margin-left: 105px;
+	margin-bottom: 10px;
+	width: 90px; /*// gunanya untuk mengatur lebar sebuah elemen*/
+	height: 40px; /*// gunanya untuk mengatur tinggi sebuah elemen*/
+
+}
+
+#twd-menu{
+	margin-bottom:20px;
+}
+.normal{
+	margin-left: 250px;
+	padding: 10px;
+}
+#twd-menu kotak{
+
+	list-style-type: none;
+	padding: 0;
+}
+	#twd-menu kotak div{
+		display: inline-block;
+	}
+		#twd-menu kotak div a{
+			display: inline-block;
+			padding:10px;
+			border-radius: 10px;
+			color: grey;
+		}
+			#twd-menu kotak div a:hover{
+				background:black;
+				color: #fff;
+			}
+
+
+.signin p {
+	color: white;
+	font-family: Blenda;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: -5px;
+}
+
+.upload p {
+	width: 500px;
+	color: white;
+	font-family: Blenda;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: -10px;
+
+}
+
+.signup p {
+	color: white;
+	font-family: Blenda;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 90px;
+	margin-bottom: 6px;
+}
+
+.login {
+	width: 880px;
+	height: 640px;
+	position: relative;
+}
+
+.signin #username {
+	margin-top: -20px;
+}
+
+.ghost {
+	width: 200px;
+	padding: 8px;
+	color: #fff;
+	border: 1px solid #fff;
+	text-align: center;
+	outline: none;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	font-size: 15px;
+	color: black;
+	cursor: text;
+}
+
+.signin {
+	border-radius: 50px/90px;
+	margin-left: 50px;
+	width: 300px;
+	height: 280px;
+	float: left;
+}
+
+.upload {
+	float: right;
+	padding-right: 100px;
+	width: 100px;
+	margin: 20px;
+}
+
+.upload #username {
+	margin-top: -34px;
+}
+
+.signup {
+	margin-top: -1px;
+	margin-left: 20px;
+	float: left;
+}
+
+#username1{
+	margin-left: 165px;
+}
+#username2 {
+	margin-left: 3px;
+	margin-right: 3px;
+	width: 160px;
+}
+#username, #password {
+	width: 110px;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+#desc {
+	margin-left: 165px;
+	width: 489px;
+	height: 100px;
+}
+
+/*deklarasi untuk button atau submit*/
+.btn {
+	width: 101px;
+	height: 50px;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	text-align: center;
+	font-size: 15px;
+	color: black;
+	margin-left: 10px;
+	cursor: hand;
+}
+/*deklarasi untuk button atau submit*/
+.btnn {
+	width: 70px;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	text-align: center;
+	font-size: 15px;
+	color: black;
+	margin-left: 110px;
+	cursor: hand;
+}
+/* deklarasi untuk bagian gambar header */
+header img {
+	height: 300px;
+	width: 742px;
+	margin-bottom: -20px;
+}
+
+social p {
+	color: white;
+	font-family: Blenda;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 400px;
+	margin-bottom: 6px;
+	margin-top: 120px;
+}
+/*Kumpulan perintah yang berfungsi untuk mempercantik elemen dibagian gambar*/
+ social .div1 a{
+ 	margin-right: 5px;
+	background-image: url(../images/fb.png);
+	background-repeat: no-repeat;
+	margin-left: 500px;
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+/*Kumpulan perintah yang berfungsi untuk mempercantik elemen dibagian gambar*/
+social .div2 a{
+	margin-right: 5px;
+	background-image: url(../images/tw.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+/*Kumpulan perintah yang berfungsi untuk mempercantik elemen dibagian gambar*/
+social .div3 a{
+	margin-right: 5px;
+	background-image: url(../images/pin0.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+/*Kumpulan perintah yang berfungsi untuk mempercantik elemen dibagian gambar*/
+social .div4 a{
+	margin-right: -5px;
+	background-image: url(../images/inst.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+/*Kumpulan perintah yang berfungsi untuk mempercantik elemen dibagian gambar pada saat di hover*/
+social .div1 a:hover{
+	background-image: url(../images/fb1.png);
+}
+/*Kumpulan perintah yang berfungsi untuk mempercantik elemen dibagian gambar pada saat di hover*/
+social .div2 a:hover{
+	background-image: url(../images/tw1.png);
+}
+/*Kumpulan perintah yang berfungsi untuk mempercantik elemen dibagian gambar pada saat di hover*/
+social .div3 a:hover{
+	background-image: url(../images/pin1.png);
+}
+/*Kumpulan perintah yang berfungsi untuk mempercantik elemen dibagian gambar pada saat di hover*/
+social .div4 a:hover{
+	background-image: url(../images/inst1.png);
+}
+
+pagewrap {
+	width: 73%;
+	height: 134%;
+	border-radius: 30px/60px;
+	background:black;
+	background: url(../images/1c.jpg);
+	background-position: center;
+	border-radius: 20px/59px;
+	margin-right: 20px;
+	margin-left: 13%;
+	padding-bottom: 20px;
+	position: relative;
+	float: left;
+}
+
+clear {
+	clear: both;
+}

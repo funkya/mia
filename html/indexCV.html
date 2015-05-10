@@ -1,0 +1,153 @@
+<html>
+
+<head>
+	<title>Curiculum Vitae</title>
+	<link rel="stylesheet" type="text/css" href="../css/cssCV.css">
+	<script type="text/javascript" src="../jQuery/jquery-1.9.1.min.js"></script>
+</head>
+
+<body>
+
+<header align="center"><img src="../images/FotoFlexer_Photo3.png"></header>
+
+	<aside>
+		<div id="twd-menu" class="normal" style="display-block">
+			<kotak>
+				<div class="aaa"><a href="../index.html">Home</a></div>
+				<div class="aa"><a href="indexCV.html">CV</a></div>
+				<div class="b"><a href="indexL.html">Login</a></div>
+				<div class="c"><a href="http://miaawahyuni.blogspot.com">About Me</a></div>
+				<div class="d"><a href="indexG.html">Gallery</a></div>			
+			</kotak>
+		</div>
+	</aside>
+
+	<script>
+
+	$(function(){
+	
+	var menu = $('#twd-menu'),
+		pos = menu.offset();
+		
+		$(window).scroll(function(){
+			if($(this).scrollTop() > pos.top+menu.height() && menu.hasClass('normal')){
+				menu.fadeOut('slow', function(){
+					$(this).removeClass('normal').addClass('fixed').fadeIn('slow');
+				});
+			} else if($(this).scrollTop() <= pos.top && menu.hasClass('fixed')){
+				menu.fadeOut('slow', function(){
+					$(this).removeClass('fixed').addClass('normal').fadeIn('slow');
+				});
+			}
+		});
+
+});
+
+	</script>
+
+<pagewrap>
+	<p align="center" ><b>Curiculum Vitae</b></p>
+	<cvkanan>
+		<table>
+			<tr>
+				<td>Nama</td>
+				<td align="center">:</td>
+				<td>Mia Agustina Wahyuni</td>
+			</tr>
+
+			<tr>
+				<td>Jenis Kelamin</td>
+				<td align="center">:</td>
+				<td>Perempuan</td>
+			</tr>
+
+			<tr>
+				<td>Tempat Tanggal Lahir</td>
+				<td align="center">:</td>
+				<td>11 - Agustus - 1996</td></tr>
+
+			<tr>
+				<td>Agama</td>
+				<td align="center">:</td>
+				<td>ISLAM</td>
+			</tr>
+
+			<tr>
+				<td>Alamat</td>
+				<td align="center">:</td>
+				<td>Rusunawa UNPAS</td>
+			</tr>
+
+			<tr>
+				<td>Kota Asal</td>
+				<td align="center">:</td>
+				<td>Bandung</td></tr>
+
+			<tr>
+				<td>Kewarganegaraan</td>
+				<td align="center">:</td>
+				<td>Indonesia</td></tr>
+
+			<tr>
+				<td>Kontak</td>
+				<td align="center">:</td>
+				<td>
+					<a href="www.pasmail.unpas.ac.id/mia.143040036">E-Mail</a>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Pendidikan Terakhir</td>
+				<td align="center">:</td>
+				<td>
+					<a href="smktelekomunikasitelesandi.sch.id">SMK</a>
+				</td>
+			</tr>
+	</table>
+</cvkanan>
+
+<cvkiri>
+	<img src="../images/143040036.jpg" align="right" width="125" height="200" >
+</cvkiri>
+
+<cv>
+	<br>
+		<p1 align="center">
+			<b>Pendidikan Formal:</b>
+		</p1> 
+	<tr>
+		<td>
+			<UL>
+				<LI>TKA/TPA THUBA</LI>
+				<LI>SDN Hegarmanah 2</LI>
+				<li>SMPN 3 Tambun Selatan</li>
+				<li>SMK Telekomunikasi Telesandi Bekasi</li>
+				<li>Universitas Pasundan</li>
+			</UL>
+		</td>
+	</tr>
+
+<p1 align="center">
+	<b>Riwayat Pekerjaan:</b>
+</p1> 
+
+<tr>
+	<td>
+		<UL>
+			<LI>PT. LGEIN (Juni-Agustus 2013)</LI>
+		</UL>
+	</td>
+</tr>
+
+<p1 align="center">
+	<b>Deskripsi:</b>
+</p1> 
+	<br><br>
+		<p2>Saya Seorang Gadis Yang Bernama Lengkap Mia Agustina Wahyuni, biasa di panggil Mia lahir di Bandung pada 11 - Agustus - 1996, riwayat pendidikan saya sudah tercantum diatas bagian CV ini, dan riwayat pekerjaan pun sudah saya lampirkan disana, selain itu ada sedikit informasi mengenai saya yang belum saya paparkan di bagian CV diatas, yaitu saya bisa mengoperasikan sesuatu yang berhubungan dengan IT seperti Setting EIGRP, VNP, LAN, MAN dan lain sebagainya jadi sehubungan dengan itu Bapak/Ibu bisa menempatkan saya pada bidang yang lebih sesuai dengan kemampuan saya agar hasilnya bisa lebih memuaskan. pada descripsi saya ini dimohonkan untuk Bapak/Ibu bisa mempertimbangkan saya untuk dapat bergabung di perusahaan Bapak/Ibu, Terima Kasih.</p2>
+</cv>
+
+</pagewrap>
+
+</body>
+
+</html>

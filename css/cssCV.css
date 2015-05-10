@@ -1,0 +1,216 @@
+@font-face { /* Mengatur atau menambahkan gaya text yang akan di tambahkan pada suatu website dibagian html*/
+	font-family: 'Blenda';
+	src: url('../font/Blenda-Script/AlexBrush-Regular.ttf');
+	src: url('../font/Blenda-Script/AlexBrush-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-size: normal;
+}
+
+@font-face { /* Mengatur atau menambahkan gaya text yang akan di tambahkan pada suatu website dibagian html*/
+	font-family: 'Blenda1';
+	src: url('../font/Blenda-Script/always-forever.ttf');
+	src: url('../font/Blenda-Script/always-forever.ttf') format('truetype');
+	font-weight: normal;
+	font-size: normal;
+}
+
+body { 
+  	background: url(../images/NAXOS-1.jpg) no-repeat center center fixed;
+  	/*// gunanya untuk menambah sebuah gambar yang dipakai sebagai sebuah background 
+	//(no-repeat: gambar tidak diulang -tetap-)
+	//(center: gambar background berada ditengah)
+	//(fixed: tetap)*/
+  	background-size: cover;
+}
+
+p {
+	text-shadow: 2px 2px 5px darkviolet;
+	font-size: 30px; 
+}
+
+header img {
+	height: 380px; /* gunanya untuk mengatur tinggi suatu elemen*/ 
+	width: 742px;
+	margin-bottom: -90px; /* gunanya untuk mengatur jarak antar elemen yang berbeda kelas atau id*/
+	z-index: 2;
+	border-radius: 80px/40px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.aaa {
+	font-family: Blenda; /* gunanya untuk mendefinisikan font apa yang akan kita gunakan*/
+	font-size: 40px; /* gunanya untuk mengatur ukuran font yang akan kita gunakan di html*/
+	margin-left: 260px; /* gunanya untuk mengatur jarak antar elemen yang berbeda kelas atau id*/
+	margin-bottom: 10px; /* gunanya untuk mengatur jarak antar elemen yang berbeda kelas atau id*/
+	width: 90px;
+	height: 40px; /* gunanya untuk mengatur tinggi suatu elemen*/ 
+	color: black;
+
+}
+
+.aa {
+	font-family: Blenda; /* gunanya untuk mendefinisikan font apa yang akan kita gunakan*/
+	font-size: 40px;
+	margin-left: 50px; /* gunanya untuk mengatur jarak antar elemen yang berbeda kelas atau id*/
+	margin-bottom: 10px; /* gunanya untuk mengatur jarak antar elemen yang berbeda kelas atau id*/
+	width: 90px;
+	height: 40px; /* gunanya untuk mengatur tinggi suatu elemen*/ 
+	color: black;
+
+}
+
+.b {
+	font-family: Blenda; /* gunanya untuk mendefinisikan font apa yang akan kita gunakan*/
+	font-size: 40px; /* gunanya untuk mengatur ukuran font yang akan kita gunakan di html*/
+	margin-left: 50px; /* gunanya untuk mengatur jarak antar elemen yang berbeda kelas atau id*/
+	margin-bottom: 10px; /* gunanya untuk mengatur jarak antar elemen yang berbeda kelas atau id*/
+	width: 90px;
+	height: 40px; /* gunanya untuk mengatur tinggi suatu elemen*/ 
+	color: black;
+
+}
+
+.c {
+	font-family: Blenda; /* gunanya untuk mendefinisikan font apa yang akan kita gunakan*/
+	font-size: 30px; /* gunanya untuk mengatur ukuran font yang akan kita gunakan di html*/
+	margin-left: 55px; /* gunanya untuk mengatur jarak antar elemen yang berbeda kelas atau id*/
+	margin-bottom: 10px; /* gunanya untuk mengatur jarak antar elemen yang berbeda kelas atau id*/
+	width: 140px;
+	height: 40px; /* gunanya untuk mengatur tinggi suatu elemen*/ 
+	color: black;
+}
+
+.d {
+	font-family: Blenda; /* gunanya untuk mendefinisikan font apa yang akan kita gunakan*/
+	font-size: 40px; /* gunanya untuk mengatur ukuran font yang akan kita gunakan di html*/
+	margin-left: 50px; /* gunanya untuk mengatur jarak antar elemen yang berbeda kelas atau id*/
+	margin-bottom: 10px; /* gunanya untuk mengatur jarak antar elemen yang berbeda kelas atau id*/
+	width: 90px;
+	height: 40px; /* gunanya untuk mengatur tinggi suatu elemen*/ 
+	color: black;
+
+}
+
+.e {
+	font-family: Blenda; /* gunanya untuk mendefinisikan font apa yang akan kita gunakan*/
+	font-size: 40px;
+	margin-left: 80px; /* gunanya untuk mengatur jarak antar elemen yang berbeda kelas atau id*/
+	margin-bottom: 10px; /* gunanya untuk mengatur jarak antar elemen yang berbeda kelas atau id*/
+	width: 90px;
+	height: 40px; /* gunanya untuk mengatur tinggi suatu elemen*/ 
+	color: black;
+
+}
+
+#twd-menu{
+	margin-bottom:20px; /* gunanya untuk mengatur jarak antar elemen yang berbeda kelas atau id*/
+}
+.normal{
+	padding: 10px;
+}
+#twd-menu kotak{
+	list-style-type: none;
+	padding: 0;
+}
+	#twd-menu kotak div{
+		display: inline-block;
+	}
+		#twd-menu kotak div a{
+			display: inline-block;
+			padding:10px;
+			border-radius: 10px;
+			color: black;
+		}
+			#twd-menu kotak div a:hover{
+				background:darkgrey;
+				color: #fff;
+			}
+
+.fixed kotak{
+		position: fixed;
+		top: -5px;
+		left: 0;
+		width: 100%;
+		padding: 10px;
+		background: darkgrey;
+		color: #f8f8f8;
+		-webkit-transition: top 400ms ease 0s;
+		-moz-transition: top 400ms ease 0s;
+		-o-transition: top 400ms ease 0s;
+		-ms-transition: top 400ms ease 0s;
+		transition: top 400ms ease 0s;
+		box-shadow: 0 0 40px #222;
+		-webkit-box-shadow: 0 0 40px #222;
+		-moz-box-shadow: 0 0 40px #222;
+	}
+	
+.fixed ul{
+		width: 450px;
+		margin: 0 auto; /* gunanya untuk mengatur jarak antar elemen yang berbeda kelas atau id*/
+	}
+
+cvkanan {
+	float: left;
+}
+
+cvkiri {
+	float:right;
+}
+
+cv {
+	float: left;
+}
+
+
+
+pagewrap {
+	width: 55%;
+	height: 205%; /* gunanya untuk mengatur tinggi suatu elemen*/ 
+	border-radius: 15px/50px;
+	background:black;
+	background: -webkit-linear-gradient(bottom, grey, white);
+				-ie-linear-gradient(bottom, grey, white);
+				-moz-linear-gradient(bottom, grey, white);
+				-o-linear-gradient(bottom, grey, white);
+	margin-right: 10px; /* gunanya untuk mengatur jarak antar elemen yang berbeda kelas atau id*/
+	margin-left: 21%; /* gunanya untuk mengatur jarak antar elemen yang berbeda kelas atau id*/
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	position: relative;
+	float: left;
+	z-index: -1;
+}
+
+pagewrap p {
+	font-family: Blenda;/* gunanya untuk mendefinisikan font apa yang akan kita gunakan*/
+	font-size: 40px; /* gunanya untuk mengatur ukuran font yang akan kita gunakan di html*/
+}
+
+cvkanan table tr td {
+	font-family: Blenda1;/* gunanya untuk mendefinisikan font apa yang akan kita gunakan*/
+	font-size: 30px; /* gunanya untuk mengatur ukuran font yang akan kita gunakan di html*/
+}
+
+cv p1 {
+	font-family: Blenda;/* gunanya untuk mendefinisikan font apa yang akan kita gunakan*/
+	font-size: 40px; /* gunanya untuk mengatur ukuran font yang akan kita gunakan di html*/
+}
+
+cv ul li {
+	font-family: Blenda1;/* gunanya untuk mendefinisikan font apa yang akan kita gunakan*/
+	font-size: 40px; /* gunanya untuk mengatur ukuran font yang akan kita gunakan di html*/
+}
+
+p2 {
+	font-family: Blenda1;/* gunanya untuk mendefinisikan font apa yang akan kita gunakan*/
+	font-size: 30px; /* gunanya untuk mengatur ukuran font yang akan kita gunakan di html*/
+}
+
+clear {
+	clear: both;
+}

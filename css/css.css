@@ -1,0 +1,96 @@
+@font-face { /*//gunannya untuk menambahkan sebuah gaya text yang baru ke dalam html.*/
+	font-family: 'Blenda';
+	src: url('../font/Blenda-Script/AlexBrush-Regular.ttf');
+	src: url('../font/Blenda-Script/AlexBrush-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-size: normal;
+}
+
+body {
+	background: url(../images/ungu.jpg) no-repeat center center fixed;
+	/*// gunanya untuk menambah sebuah gambar yang dipakai sebagai sebuah background 
+	//(no-repeat: gambar tidak diulang -tetap-)
+	//(center: gambar background berada ditengah)
+	//(fixed: tetap)*/
+  	background-size: cover;
+}
+
+header img {
+	height: 700px; /*// gunanya untuk mengatur tinggi sebuah elemen*/
+	width: 1330px; /*// gunanya untuk mengatur lebar sebuah elemen*/
+	margin-bottom: -70px;
+}
+
+kotak a {
+	text-decoration: none; /*//gunannya untuk menghilangkan semua dekorasi yang terdapat pada text.*/
+}
+
+.aa {
+	font-family: Blenda; /*gunanya untuk men-setting jenis gaya text yang akan kita gunakan.*/
+	font-size: 40px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	width: 90px; /*// gunanya untuk mengatur lebar sebuah elemen*/
+	height: 40px; /*// gunanya untuk mengatur tinggi sebuah elemen*/
+	
+
+}
+
+.b {
+	font-family: Blenda;/*gunanya untuk men-setting jenis gaya text yang akan kita gunakan.*/
+	font-size: 40px;
+	margin-left: 85px;
+	margin-bottom: 10px;
+	width: 90px; /*// gunanya untuk mengatur lebar sebuah elemen*/
+	height: 40px; /*// gunanya untuk mengatur tinggi sebuah elemen*/
+
+}
+
+.c {
+	font-family: Blenda;/*gunanya untuk men-setting jenis gaya text yang akan kita gunakan.*/
+	font-size: 30px;
+	margin-left: 105px;
+	margin-bottom: 10px;
+	width: 150px; /*// gunanya untuk mengatur lebar sebuah elemen*/
+	height: 40px; /*// gunanya untuk mengatur tinggi sebuah elemen*/
+}
+
+.d {
+	font-family: Blenda;/*gunanya untuk men-setting jenis gaya text yang akan kita gunakan.*/
+	font-size: 40px;
+	margin-left: 105px;
+	margin-bottom: 10px;
+	width: 90px; /*// gunanya untuk mengatur lebar sebuah elemen*/
+	height: 40px; /*// gunanya untuk mengatur tinggi sebuah elemen*/
+
+}
+/*----- Mendeklarasikan fungsi - fungsi yang akan tampil didalam html -----*/
+#twd-menu{
+	margin-bottom:20px; /* gunanya untuk mengatur jarak antar elemen*/
+}
+.normal{
+	margin-left: 250px;/* gunanya untuk mengatur jarak antar elemen*/
+	padding: 10px;
+}
+#twd-menu kotak{
+
+	list-style-type: none;
+	padding: 0;
+}
+	#twd-menu kotak div{
+		display: inline-block;
+	}
+		#twd-menu kotak div a{
+			display: inline-block;
+			padding:10px;
+			border-radius: 10px;
+			color: #ddd; /* mengatur warna*/
+		}
+			#twd-menu kotak div a:hover{
+				background:black; /* mengatur warna*/
+				color: #fff; /* mengatur warna*/
+			}
+
+clear {
+	clear: both;
+}
